@@ -50,7 +50,4 @@ createElement()
 prepend()append()
 */
 
-// more:
-// remove
-// localStorage
-// scroll
+
