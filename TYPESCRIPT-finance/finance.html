@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>finance</title>
+    <script defer type="module" src="./build/finance.js"></script>
+    <link rel="stylesheet" href="finance.css" />
+  </head>
+  <body>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TypeScript Tutorial</title>
+        <link rel="stylesheet" href="./finance.css" />
+        <script defer type="module" src="./build/finance.js"></script>
+      </head>
+      <body>
+        <header>
+          <h1>דו"ח פיננסי</h1>
+        </header>
+
+        <main>
+          <form class="form-a">
+            <div class="field">
+              <label for="chooseMethod">סוג:</label>
+              <select name="chooseMethod" id="type">
+                <option value="קבלה">קבלה</option>
+                <option value="תשלום">תשלום</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="toFrom">מאת/עבור:</label>
+              <input name="toFrom" type="text" id="toFrom" />
+            </div>
+            <div class="field">
+              <label for="details">פירוט:</label>
+              <input name="details" type="text" id="details" />
+            </div>
+            <div class="field">
+              <label for="amount">סכום (₪):</label>
+              <input name="amount" type="number" id="amount" />
+            </div>
+            <div class="addContainer">
+              <button class="addBtn">הוסף</button>
+            </div>
+          </form>
+        </main>
+
+        <footer>
+          <ul></ul>
+<!-- 
+          <button class="removeBtn">הסר</button> -->
+        </footer>
+      </body>
+    </html>
+  </body>
+</html>

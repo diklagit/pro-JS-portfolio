@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iMAGE-Gallery</title>
+    <link rel="stylesheet" href="gallery.css" />
+    <script defer src="gallery.js"></script>
+  </head>
+  <body>
+    <h1>גלריית תמונות- מנוע חיפוש</h1>
+
+    <form>
+      <input
+        id="search-input"
+        type="text"
+        placeholder="Enter Search Key Words"
+      />
+      <button id="search-btn">🔍️</button>
+    </form>
+
+    <div class="img-container">
+      <div class="img-item">
+        <img
+          src="https://images.unsplash.com/photo-1690620368365-f0e394e1510e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=812&q=80"
+          alt="גשר על מים"
+        />
+        <a
+          href="https://unsplash.com/photos/a-large-long-bridge-over-a-body-of-water-lWLfAEAjw5c"
+          target="_blank"
+          >גשר על מים</a
+        >
+      </div>
+
+      <div class="img-item">
+        <img
+          src="https://images.unsplash.com/photo-1690620368365-f0e394e1510e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=812&q=80"
+          alt="גשר על מים"
+        />
+        <a
+          href="https://unsplash.com/photos/a-large-long-bridge-over-a-body-of-water-lWLfAEAjw5c"
+          target="_blank"
+          >גשר על מים</a
+        >
+      </div>
+
+      <div class="img-item">
+        <img
+          src="https://images.unsplash.com/photo-1690620368365-f0e394e1510e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=812&q=80"
+          alt="גשר על מים"
+        />
+        <a
+          href="https://unsplash.com/photos/a-large-long-bridge-over-a-body-of-water-lWLfAEAjw5c"
+          target="_blank"
+          >גשר על מים</a
+        >
+      </div>
+    </div>
+
+    <button id="show-more-btn">הצג עוד</button>
+
+    <div class="full-img" id="fullImgBox">
+       <img
+          src="https://images.unsplash.com/photo-1690620368365-f0e394e1510e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=812&q=80"
+          alt="גשר על מים"
+          id="fullImg"
+        />
+        <span id="closeFullImg">X</span>
+    </div>
+  </body>
+</html>

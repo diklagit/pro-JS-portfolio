@@ -1,0 +1,10 @@
+p {
+  direction: rtl;
+}
+
+canvas {
+  width: 250px;
+  height: 200px;
+}
+
+
